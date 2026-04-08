@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <item name="Settings" type="id">Settings</item>-->
+    <item name="videoView" type="id" />
+    <item name="editText" type="id" />
+    <item name="edText" type="id" />
+</resources>

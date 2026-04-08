@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity14_UNIT2_PRO3">
+
+<EditText
+    android:id="@+id/edt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter phone number"
+    android:inputType="phone"
+    android:padding="12dp"
+    android:layout_marginTop="200dp"
+    android:layout_gravity="center"
+    android:background="@android:drawable/edit_text"
+    android:textSize="16sp"
+    android:layout_marginBottom="20dp"/>
+
+<Button
+    android:id="@+id/buttonCall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Call"
+    android:backgroundTint="#87CEEB"
+    android:textColor="#FFFFFF"
+    android:padding="12dp"
+    android:textSize="18sp"/>
+</LinearLayout>
